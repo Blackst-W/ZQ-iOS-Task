@@ -1,17 +1,24 @@
-# 2016秋招分流考核
-Define three new classes, called **Song**, **Playlist**, and **MusicCollection**. 
+#目录介绍：
 
-A Song object will contain information about a particular song, such as its title, artist, album, and playing time. 
+###OC Template：
+Objective-C的项目模板文件
 
-A Playlist object will contain the name of the playlist and a collection of songs. A MusicCollection object will contain a collection of playlists, including a special master playlist called library that contains every song in the collection. 
+###Swift Template:
+Swift的项目模板文件
 
-Define these three classes and write methods to do the following:
- 
-1. Create a Song object and set its information.
-2. Create a Playlist object, and add songs to and remove songs from a playlist. A new song should be added to the master playlist if it’s not already there. Make sure that if a song is removed from the master playlist, it is removed from all playlists in the music collection as well.
-3. Create a MusicCollection object, and add playlists to and remove playlists from the collection.
-4. Search and display the information about any song, any playlist, or the entire music collection.
- 
-Note:
-You don’t need to write a application with UI for now. A console application is OK.
-This task can be finish in Swift or Objective-C.
+>以上模板为Console Application模板
+
+>模板文件仅供参考，可以随意更改，但是要求将三个类的定义和实现分开放在不同文件当中。
+
+###Books:
+OC和Swift的参考书籍
+
+###git Task.md
+git 部分的考核要求及考核的提交方式
+
+###Task.md
+考核要求
+
+###Code Style.md
+代码风格要求
+
